@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
 
         // Create a new instance of the Chrome browse
-        WebDriver driver = new ChromeDriver();
 
         // Navigate to the SauceDemo website
         driver.get("https://www.saucedemo.com/");
