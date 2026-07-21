@@ -19,8 +19,7 @@ public class Main {
         ///This terminates the WebDriver instance and closes all associated windows.
         ///Note: driver.quit() is often preferred as it closes all windows and ends
         /// the WebDriver session more completely than close().
-        driver.close();
-
+        driver.quit();
 
 
     }
