@@ -17,6 +17,10 @@ public class Main {
         // Navigate to the SauceDemo website
         driver.get("https://www.saucedemo.com/");
 
+        //maximize screen
+        driver.manage().window().maximize();
+
+
         /// Html/DOm element locators
         /// Name
         /// ID
